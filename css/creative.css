@@ -292,7 +292,8 @@ header .header-content .header-content-inner p {
   padding-top: 1em;
 }
 .heading-about-me {
-  text-decoration: underline;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 20px;
   display: block;
   margin-bottom: 10px;
 }
