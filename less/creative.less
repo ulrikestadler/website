@@ -168,7 +168,7 @@ header {
     width: 100%;
     min-height: auto;
     .background-cover;
-    background-position: center;
+    background-position: top;
     text-align: center;
     color: white;
     .header-content {
@@ -194,6 +194,9 @@ header {
                 margin-bottom: 50px;
             }
         }
+    }
+    @media (max-width: 768px) {
+      top:50px;
     }
     @media (min-width: 768px) {
         min-height: 100%;
