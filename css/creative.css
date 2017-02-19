@@ -294,6 +294,7 @@ header .header-content .header-content-inner p {
 .heading-about-me {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 20px;
+  font-weight: 500;
   display: block;
   margin-bottom: 10px;
 }
