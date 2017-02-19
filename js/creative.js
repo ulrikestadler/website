@@ -68,20 +68,18 @@ var getUrlParameter = function getUrlParameter(sParam) {
         navigateByImgClick: true,
         preload: [0,1]
       },
-      type: 'image' // this is default type
+      type: 'image'
     });
 
     $('.openAcademyGallery').magnificPopup({
-      items: [
-        {
-          src: '<div class="white-popup">Nur ein Beispiel Galerie-Button für zukünftige Academy Percussion Alben</div>', // HTML string
-          type: 'inline'
-        }
-      ],
+      //items: $(this).attr("data-images"),
+      items: [{"src": "img/fotos/_HWK1847.jpg"},{"src": "img/fotos/030_kug_drum_n_voice_johannes_gellner.jpg"},{"src": "img/fotos/308_kug_drum_n_voice_johannes_gellner.jpg"},{"src": "img/fotos/717_kug_percussion_johannes_gellner.jpg"},{"src": "img/fotos/140718CP1_0571.JPG"},{"src": "img/fotos/DSC02482.JPG"},{"src": "img/fotos/DSC02856.JPG"},{"src": "img/fotos/DSC02929.JPG"},{"src": "img/fotos/DSC02934.JPG"},{"src": "img/fotos/DSC03057.JPG"},{"src": "img/fotos/DSC06776.JPG"},{"src": "img/fotos/I_Percussion_Identity-52.jpg"},{"src": "img/fotos/I_Percussion_Identity-72.jpg"},{"src": "img/fotos/I_Percussion_Identity-149.jpg"},{"src": "img/fotos/I_Percussion_Identity-325.jpg"},{"src": "img/fotos/I_Percussion_Identity-432.jpg"},{"src": "img/fotos/IMG_2205.jpg"},{"src": "img/fotos/PhotowerK_recre09_LeSacre_064_2.jpg"},{"src": "img/fotos/PR_Percussion_meets_Identity-112.jpg"},{"src": "img/fotos/PR_Percussion_meets_Identity-481.jpg"},{"src": "img/fotos/PR_Percussion_meets_Identity-614.jpg"},{"src": "img/fotos/PR_Percussion_meets_Identity-704.jpg"},{"src": "img/fotos/PR_Percussion_meets_Identity-765.jpg"},{"src": "img/fotos/PR_Percussion_meets_Identity-842.jpg"},{"src": "img/fotos/PR_PMI_2016-162_web.jpg"},{"src": "img/fotos/PR_PMI_2016-207_web.jpg"},{"src": "img/fotos/PR_PMI_2016-317_web.jpg"},{"src": "img/fotos/PR_PMI_2016-322_web.jpg"},{"src": "img/fotos/PR_PMI_2016-348_web.jpg"},{"src": "img/fotos/PR_PMI_2016-410_web.jpg"},{"src": "img/fotos/PR_PMI_2016-529_web.jpg"},{"src": "img/fotos/PR_PMI_2016-536_web.jpg"},{"src": "img/fotos/PR_PMI_2016-740_web.jpg"},{"src": "img/fotos/PR_PMI_2016-970_web.jpg"},{"src": "img/fotos/PR_PMI_2016-978_web.jpg"},{"src": "img/fotos/PR_PMI_2016-1053_web.jpg"}],
       gallery: {
-        enabled: true
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0,1]
       },
-      type: 'image'
+      type: 'image' // this is default type
     });
 
     var translateAll = function() {
@@ -147,7 +145,8 @@ var getUrlParameter = function getUrlParameter(sParam) {
             },
             'galerie': {
               'ueberschrift': 'Galerie',
-              'presseAlbum': 'Presse-Album',
+              'presseAlbum': 'Presse',
+              'fotoAlbum': 'Fotos'
             },
             'kontakt': {
               'ueberschrift': 'Kontakt',
@@ -185,7 +184,8 @@ var getUrlParameter = function getUrlParameter(sParam) {
             },
             'galerie': {
               'ueberschrift': 'Gallery',
-              'presseAlbum': 'Press Album',
+              'presseAlbum': 'Press',
+              'fotoAlbum': 'Photos'
             },
             'kontakt': {
               'ueberschrift': 'Contact',
